@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import { Numbers } from "../Home/Numbers";
 
 const Dh_Home = () => {
   return (
@@ -27,7 +28,7 @@ const Dh_Home = () => {
               height={50}
               className="mx-auto invert"
             />
-            <h2 className="mt-2 text-4xl font-bold text-white">495</h2>
+            <Numbers number={495} />
             <p className="text-xl text-gray-300">ފިރިހެން</p>
           </div>
 
@@ -39,7 +40,7 @@ const Dh_Home = () => {
               height={50}
               className="mx-auto invert"
             />
-            <h2 className="mt-2 text-4xl font-bold text-white">455</h2>
+            <Numbers number={455} />
             <p className="text-xl text-gray-300">އަންހެން</p>
           </div>
           <div className="text-center">
@@ -50,7 +51,7 @@ const Dh_Home = () => {
               height={50}
               className="mx-auto invert"
             />
-            <h2 className="mt-2 text-4xl font-bold text-white">353</h2>
+            <Numbers number={353} />
             <p className="text-xl text-gray-300">ގޭބިސީ</p>
           </div>
 
@@ -62,7 +63,7 @@ const Dh_Home = () => {
               height={50}
               className="mx-auto invert"
             />
-            <h2 className="mt-2 text-4xl font-bold text-white">950</h2>
+            <Numbers number={950} />
             <p className="text-xl text-gray-300">އާބާދީ</p>
           </div>
         </div>

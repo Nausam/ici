@@ -8,9 +8,6 @@ const Dh_Navbar = () => {
     <header className="sticky top-0 z-50 bg-white shadow">
       <div className="container mx-auto flex items-center justify-between px-6 py-4">
         <div className="flex items-center space-x-4 font-dhivehi text-xl">
-          <button className="rounded bg-accentGreen px-4 py-2 text-white hover:bg-lightGreen">
-            ޚިދުމަތްތަށް
-          </button>
           <button className="rounded bg-mediumBlue px-4 py-2 text-white hover:bg-lightBlueGreen">
             ޝަކުވާ ހުށައެޅުމަށް
           </button>
@@ -22,13 +19,13 @@ const Dh_Navbar = () => {
               މީޑިޔާ ސެންޓަރ
             </a>
             <a href="#" className="text-gray-700 hover:text-blue-500">
-              ރިޕޯޓްތައް
+              އިވެންޓް
+            </a>
+            <a href="#" className="text-gray-700 hover:text-blue-500 ">
+              ޚިދުމަތް
             </a>
             <a href="#" className="text-gray-700 hover:text-blue-500">
               ކައުންސިލް
-            </a>
-            <a href="#" className="text-gray-700 hover:text-blue-500 ">
-              ރައީސް
             </a>
           </nav>
           <Link href="/">
