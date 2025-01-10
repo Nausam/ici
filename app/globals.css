@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "DAM_Madheeh";
+  src: url("/fonts/DAM_Madheeh.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -15,7 +22,20 @@
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  @apply bg-white min-h-screen;
+    scroll-behavior: smooth;
+}
+
+* {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;
+
+
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
