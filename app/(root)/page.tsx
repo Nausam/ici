@@ -8,12 +8,12 @@ import En_Services from "@/components/English/En_Services";
 
 export default function Home() {
   return (
-    <>
+    <main suppressHydrationWarning>
       {/* <En_Navbar /> */}
       <Dh_Navbar />
       {/* <En_Home /> */}
       <Dh_Home />
       <En_Services />
-    </>
+    </main>
   );
 }
