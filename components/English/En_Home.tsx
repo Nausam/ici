@@ -1,10 +1,6 @@
-"use client";
-
 const En_Home = () => {
   return (
     <section>
-      {/* Header */}
-
       {/* Hero Section */}
       <div className="relative h-screen">
         <video

@@ -86,4 +86,41 @@ body {
   .container {
     @apply mx-auto max-w-7xl px-5;
   }
+
+  .ease-custom-ease {
+    transition-timing-function: cubic-bezier(0.65, 0.05, 0.36, 1);
+  }
+
+  .nav-hover-btn {
+    @apply relative ms-10 font-dhivehi text-xl uppercase text-white after:absolute after:-bottom-0.5 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-neutral-400 after:transition-transform after:duration-300 after:ease-custom-ease hover:after:origin-bottom-left hover:after:scale-x-100 dark:after:bg-white cursor-pointer;
+  }
+
+  .mobile-header {
+     @apply ml-6 flex h-[60px] justify-between md:hidden !important;
+  }
+
+  .shad-sheet {
+    @apply pt-0 !important;
+ }
+
+  .header-user {
+   @apply my-3 flex items-center gap-2 rounded-full p-1 text-lightBlue sm:justify-center sm:bg-white/10 lg:justify-start lg:p-3 !important;
+  }
+.mobile-nav {
+  @apply flex-1 gap-1 text-darkBlue !important;
+}
+
+.mobile-nav-list {
+  @apply flex flex-1 flex-col gap-4 !important;
+}
+
+.mobile-nav-item {
+  @apply flex text-black gap-4 w-full justify-end items-center px-6 h-[52px] rounded-full text-xl !important;
+}
+
+.shad-active {
+  @apply bg-darkBlue text-white shadow-xl !important;
+}
+
+
 }
